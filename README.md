@@ -6,13 +6,13 @@
 <div align = "center">
   <p><h3>Diagrama Entidade Relacionamento
   <br><br>
-  <img width="900px" src="https://raw.githubusercontent.com/eidisato/blogPessoal/main/DOCUMENTAÇÃO/Database%20Design.jpeg"/>
+  <img width="1980px" src="https://raw.githubusercontent.com/eidisato/blogPessoal/main/DOCUMENTAÇÃO/Database%20Design.jpeg"/>
   
   ##
   
   <p><h3>Dicionário de Dados
   <br><br>
-  <img width="900px" src="https://raw.githubusercontent.com/eidisato/blogPessoal/main/DOCUMENTAÇÃO/Dicionario%20de%20Dados.png"/>
+  <img width="1980px" src="https://raw.githubusercontent.com/eidisato/blogPessoal/main/DOCUMENTAÇÃO/Dicionario%20de%20Dados.png"/>
   </div>
 
 
