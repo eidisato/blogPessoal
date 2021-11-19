@@ -15,4 +15,16 @@
   <img width="1980px" src="https://raw.githubusercontent.com/eidisato/blogPessoal/main/DOCUMENTAÇÃO/Dicionario%20de%20Dados.png"/>
   </div>
 
+  ##
+  
+  <p><h3>Swagger
+  <br><br>
+  <img width="1980px" src="https://i.imgur.com/WpbDD1y.png"/>
+  </div>
 
+   ##
+  
+  <p><h3>
+  <br><br>
+  <img width="1980px" src="https://i.imgur.com/f4RPh6i.png"/>
+  </div>
