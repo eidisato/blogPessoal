@@ -1,0 +1,14 @@
+.titulo{
+    display:block;
+    padding: 1%;
+    text-align: center;
+    color:dodgerblue;
+    margin: 0;
+}
+.img{
+    
+    width: 500;
+    height: 500;
+    display: block;
+    margin: 0 auto;
+}
