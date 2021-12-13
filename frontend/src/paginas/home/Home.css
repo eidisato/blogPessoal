@@ -1,0 +1,17 @@
+.caixa{
+    background-color:  #ffffff;
+    min-height: 100vh;
+}
+.texto1{
+    color: #fb44ff!important;
+    font-weight: "bold";
+}
+.texto2{
+    color:#00ffff!important;
+    font-weight: "bold";
+}
+.bt-post{
+    border-color: black!important;
+    background-color: #00ffff!important;
+    color: #fb44ff!important;
+}

@@ -1,30 +1,34 @@
 import React from "react";
 import "./Home.css";
-import {Grid, Typography, Box, Button } from "@material-ui/core";
-function Home(){
+import { Grid, Typography, Box, Button } from "@material-ui/core";
+import TabPostagem from "../../componentes/postagens/tabpostagem/TabPostagem";
+function Home() {
     return (
         <>
-            <Grid container direction="row" justifyContent="center" alignItems="center" style={{ backgroundColor: "#3F51B5" }}>
-                <Grid alignItems="center" item xs={6}>
+            <Grid item xs={12} container direction="row" justifyContent="center" alignItems="center" className="caixa">
+                <Grid alignItems="center"  xs={12} sm={6}>
                     <Box paddingX={20} >
-                        <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" style={{ color: "white", fontWeight: "bold" }}>Seja bem vindo(a)!</Typography>
-                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" style={{ color: "white", fontWeight: "bold" }}>Ao lar do conteudo para Web Dev!</Typography>
+                        <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='texto1'>Seja bem vindo(a)!</Typography>
+                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='texto2'>Ao lar do conteudo para Web Dev!</Typography>
                     </Box>
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
                         </Box>
-                        <Button variant="outlined" style={{ borderColor: "white", backgroundColor: "#3F51B5", color: "white" }}>Ver Postagens</Button>
+                        <Button variant="outlined" className='bt-post'>Ver Postagens</Button>
                     </Box>
                 </Grid>
-                <Grid item xs={6} >
-                    <img src="https://i.imgur.com/BCuNap8.png" alt="" width="800px" height="500px" />
+                <Grid  sm={6} xs={12} >
+                    <Box display="flex" justifyContent="center">
+                    <img src="https://s10.gifyu.com/images/Dev.gif" alt="dev+" />
+                    </Box>
                 </Grid>
-                <Grid xs={12} style={{ backgroundColor: "white" }}>
+                <Grid xs={12} className='postagens'>
+                <TabPostagem />
                 </Grid>
             </Grid>
-        </>  
+        </>
     );
 
-        
+
 }
 export default Home;
