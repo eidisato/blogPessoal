@@ -11,7 +11,8 @@
     font-weight: "bold";
 }
 .bt-post{
-    border-color: black!important;
+    text-decoration: none !important;
+    border-color: #fb44ff!important;
     background-color: #00ffff!important;
-    color: #fb44ff!important;
+    color: #000000!important;
 }
